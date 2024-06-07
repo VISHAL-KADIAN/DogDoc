@@ -1,0 +1,155 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+#h11{
+  margin-top: 0px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch:extra-expanded;
+}
+
+#spantag1{
+  color: maroon;
+  font-size: 63pt;
+
+}
+
+
+
+#spantag2{
+  color: white;
+  font-size: 63pt;
+
+}
+
+#fdiv{
+  margin-top: 55px;
+  
+}
+
+#dogimage{
+  padding-left: 0px !important;
+  margin-left: 0px !important;
+}
+
+.fs-2{
+  font-size: 28pt !important;
+}
+
+#newdog{
+  border-radius: 50%;
+}
+
+.firstimg, .secondimg, .thirdimg{
+  width: 220px;
+}
+
+.fourthimg{
+  width: 170px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 4px !important;
+}
+
+.btn-outline-primary, .btn-primary{
+  --bs-btn-color: #fff;
+    --bs-btn-bg: #212529;
+    --bs-btn-border-color: #212529;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #424649;
+    --bs-btn-hover-border-color: #373b3e;
+    --bs-btn-focus-shadow-rgb: 66, 70, 73;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #4d5154;
+    --bs-btn-active-border-color: #373b3e;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #212529;
+    --bs-btn-disabled-border-color: #212529;
+}
+
+
+.btn-outline-primary{
+  --bs-btn-color:white;
+
+}
+
+.border-primary {
+  --bs-border-opacity:  !important;
+  border-color: white !important;
+  --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03) !important;
+
+  --bs-card-border-color: var(--bs-border-color-translucent) !important;
+}
+
+.text-bg-primary {
+  /* color: #fff !important; */
+  background-color: #373b3e !important;
+}
+
+#spantaggg11{
+  color: maroon;
+  font-size:14pt; ;
+
+}
+
+#spantaggg22{
+  color: white;
+  font-size:14pt ;
+
+}
+
+.footeredix{
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172) !important;
+  background-size: 180% 180% !important;
+  animation: gradient-animation 18s ease infinite !important;
+
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: black !important;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
